@@ -1,0 +1,122 @@
+/*this is the main css*/
+
+
+
+
+body {
+    margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:#3433CC;
+}
+
+/*Banner*/
+h1.main_heading {
+	font-family: 'Lobster', cursive;
+	color: #fff;
+	font-size: 3em;
+	text-align: center;
+}
+
+.logo {
+	background-color: #353434;
+	padding: 1em;
+	width: 100%;
+}
+
+
+/*Navigation*/
+ul.nav_list li {
+	display: inline-block;
+	padding-right: 2em;
+}
+
+
+
+/*Main container*/
+.container {
+	display: grid;
+	grid-template-rows: 300px;
+	grid-gap:5%;
+	justify-content: center;
+} 
+	
+
+
+p.intro_statement {
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+
+/*Recipe cards*/
+.recipe_box {
+/*	display: flex;*/
+	border:#9E9B9B thin solid;	
+}
+.recipe_image {
+	width: 100%;
+}
+
+div.dark_purple {
+	background-color:#1F0173;
+	padding: 1em;
+}
+
+div.dark_gold {
+	background-color: #8C5B1D;
+	padding: 1em;
+}
+
+h2.recipe_title {
+	color: #F1F1EA;
+	text-align: left;
+}
+h3.recipe_author {
+	color: #F1F1EA;
+	text-align: left;
+	font-style: italic;
+}
+
+/*Footer*/
+
+.footer {
+	background-color: #353434;
+	padding: 1em;
+	width: 100%;
+	color: whitesmoke;
+}
+
+
+
+.email_text {
+	font-style: italic;
+}
+
+.submit_button {
+	background-color:#1FD39E;
+	border-radius: 25px;
+}
+
+
+/*Media queries*/
+@media(min-width:600px) and (max-width:900px) {
+
+	
+	
+	
+}
+
+
+
+@media(min-width: 901px) {
+	h1.main_headig {
+		text-align: center;
+	}
+}

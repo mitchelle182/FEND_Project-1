@@ -1,0 +1,99 @@
+/* CSS Document */
+
+@import 'main.css';
+
+
+.blog-container {
+	margin: 2% 0;
+}
+
+.beauty_shot {
+	width: 75%;
+}
+h1.recipe_name {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+}
+
+h2.recipe_author {
+	text-align: center;
+	font-style: italic;
+	font-size: 1em;
+}
+
+h3.yield,
+h3.time
+{
+	text-align: center;
+	color:#424141;
+}
+
+p.intro {
+	text-align: center;
+	font-style: italic;
+	margin: 5%;
+	
+}
+
+.recipe-container {
+	border: dashed #6A6767 2px;
+	padding: 1em;
+	margin: 2%;
+}
+
+.go_to_home {
+	text-align: center;
+	font-style: italic;
+	color: blueviolet;
+}
+
+/*Sidebar about_author*/
+
+.about_author {
+	border: dashed #6A6767 2px;
+	padding: 1em;
+	margin: 2%;
+}
+
+ul.sm_icons {
+	list-style-type: none;
+	display: flex;
+	align-items: stretch;
+}
+
+/*Tip Sidebar*/
+.tips, 
+.other_recipes {
+	border: solid lightgrey 3px;
+	padding: 1em;
+	margin: 2%;
+	width: 60%;
+}
+
+img.icon {
+	width: 50px;
+}
+
+@media(min-width:600px) and (max-width:900px) {
+
+	
+	
+	
+}
+
+
+
+@media(min-width: 901px) {
+	
+}
+
+
+
+
+
+
+
+
+
+/*Media queries*/
